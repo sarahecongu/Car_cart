@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=s
+wap"
+rel="stylesheet"
+/>
+<link rel="stylesheet" href="car.css" />
+<title>Practicalized DOM</title>
+</head>
+<body>
+ <!--class for product- cards--> 
+ <div class="product-card">
+    <div class="product-image">
+      <!--image of a benz--> 
+      <!-- <img src="mercedes-benz-e-class_20-removebg-preview.png" alt="benz ">  -->
+    </div>
+    <!--product description-->
+    <div class="product-description">
+        <h3 class="tag">CAR</h3>
+        <h1 class="product-title">Mercedez Benz c300 2022</h1>
+        <!--product details-->
+        <p class="product-details">
+            <span class="mileage">
+                <span style = "font-size: 1em;color:black">
+                    <i class="fa-solid fa-car"></i>
+                </span>
+                mileage: 4000 miles
+            </span>
+            <span class="fuel">
+                <span style="font-size: 1em;color:black">
+                    <i class="fa-solid fa-shield"></i>
+                </span>Fuel: 25mpg
+            </span>
+            <span class="safety">
+                <span style="font-size: 1em;color:black">
+                    <i class="fa-solid fa-shield"></i>
+                </span> Safety:
+                <!--ratings-->
+                <span class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    
+                </span>
+            </span>
+        </p>
+        <!--colors-->
+        <p>Pick a color</p>
+        <div class="colors-price">
+            <div class="colors">
+                <span class="red"></span>
+                <span class="gray"></span>
+                <span class="black"></span>
+            </div>
+            <!--prices-->
+            <div class="pricing">
+                <h2 class="new-price">$134,450</h2>
+                <h4 class="old-price"><s>$140,500</s></h4>
+            </div>
+        </div>
+        <!--button-->
+        <button id="button">
+            <span style="font-size:1em;color:white">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span class="button-text">Add to Cart </span>
+        </span>
+       
+        </button>
+         <!--feedback buttons-->
+         <button class="feedback">
+            <span id="white-button">
+                🥳 Woohoo, You're about to own a benz 🎊
+            </span>  
+            
+         </button>
+    </div>
+ </div> 
+ <script src="car.js"></script> 
+</body>
+</html>
